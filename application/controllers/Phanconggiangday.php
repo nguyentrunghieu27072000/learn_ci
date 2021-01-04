@@ -5,7 +5,7 @@
 			$this->load->model('SinhvienModel');
 		}
 		public function index(){
-			$ma_cb = 'mcb0741000';
+			$ma_cb = 'mcb0741001';
 			$ds_mon_cb = $this->SinhvienModel->lay_mon_canbo($ma_cb);
 			$arr_mh_cb = array();
 			foreach ($ds_mon_cb as $key => $value) {
